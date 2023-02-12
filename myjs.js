@@ -94,14 +94,14 @@ document.addEventListener('DOMContentLoaded', function() { // making sure the do
     { setTimeout(function(){ 
         
         result.innerHTML = `${name1} won`; 
-        div1.style.color = "red"
+        div1.style.color = "red" 
         div2.style.color = "red"
 
-        div3.style.color = "red"
+        div3.style.color = "red" // the line that won will have a red font
         div1.style.borderColor = "white"
         div2.style.borderColor = "white"
 
-        div3.style.borderColor = "white"
+        div3.style.borderColor = "white"  // but will keep white borders
 
 
     
@@ -335,7 +335,7 @@ function Restart(){
     var div8 = document.querySelector('.c8')
     var div9 = document.querySelector('.c9')
 
-    div1.style.color = "white"
+    div1.style.color = "white" // restoring the font color to white when reset
     div2.style.color = "white"
     div3.style.color = "white"
     div4.style.color = "white"
