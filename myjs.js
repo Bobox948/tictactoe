@@ -325,4 +325,25 @@ function Restart(){
     document.querySelector('.c9').innerHTML = ''
     document.getElementById('result').innerHTML = '' // clearing the board
 
+    var div1 = document.querySelector('.c1')
+    var div2 = document.querySelector('.c2')
+    var div3 = document.querySelector('.c3')
+    var div4 = document.querySelector('.c4')
+    var div5 = document.querySelector('.c5')
+    var div6 = document.querySelector('.c6')
+    var div7 = document.querySelector('.c7')
+    var div8 = document.querySelector('.c8')
+    var div9 = document.querySelector('.c9')
+
+    div1.style.color = "white"
+    div2.style.color = "white"
+    div3.style.color = "white"
+    div4.style.color = "white"
+    div5.style.color = "white"
+    div6.style.color = "white"
+    div7.style.color = "white"
+    div8.style.color = "white"
+    div9.style.color = "white"
+
+
 }
